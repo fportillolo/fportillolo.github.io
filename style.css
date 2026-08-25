@@ -1634,6 +1634,24 @@ html[data-theme="dark"] .news-timeline::before {
 
 }
 
+/* Publications en la timeline de noticias */
+.news-node[data-type="publication"] .node-marker {
+    border-color: var(--coral);
+}
+
+.news-node[data-type="publication"]:hover .node-marker {
+    background: var(--coral);
+}
+
+.news-node[data-type="publication"]:hover .node-content {
+    border-color: var(--coral);
+}
+
+.news-node[data-type="publication"] .node-tag {
+    color: var(--coral);
+    background: var(--coral-light);
+}
+
 
 .news-node:hover .node-marker {
 
