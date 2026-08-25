@@ -58,6 +58,8 @@ a {
     --ink: #14171f;
     --ink-soft: #4a4d56;
     --ink-muted: #6d6961;
+    --gold: #a6763d;
+    --gold-light: #f2e6d3;
 
     --bg: #f2ede7;
     --bg-white: #ffffff;
@@ -99,6 +101,8 @@ html[data-theme="dark"] {
 
     --coral: #d97a68;
     --coral-light: #33221e;
+       --gold: #d9a866;
+    --gold-light: #362a1c;
 
 }
 
@@ -1636,20 +1640,20 @@ html[data-theme="dark"] .news-timeline::before {
 
 /* Publications en la timeline de noticias */
 .news-node[data-type="publication"] .node-marker {
-    border-color: var(--coral);
+    border-color: var(--gold);
 }
 
 .news-node[data-type="publication"]:hover .node-marker {
-    background: var(--coral);
+    background: var(--gold);
 }
 
 .news-node[data-type="publication"]:hover .node-content {
-    border-color: var(--coral);
+    border-color: var(--gold);
 }
 
 .news-node[data-type="publication"] .node-tag {
     color: var(--coral);
-    background: var(--coral-light);
+    background: var(--gold-light);
 }
 
 
